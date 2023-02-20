@@ -71,7 +71,7 @@ export default function Navbar() {
                     )}
                   >
                     <Link href="/" className="px-6">Home</Link>
-                    <span>About</span>
+                    <span>About Us</span>
                     <ChevronDownIcon
                       className={classNames(
                         open ? 'text-gray-600' : 'text-gray-400',
@@ -131,7 +131,7 @@ export default function Navbar() {
               Product
             </Link>
             <Link href="contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
-              contact
+              Contact Us
             </Link>
 
             <Popover className="relative">
